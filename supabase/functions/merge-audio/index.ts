@@ -46,9 +46,6 @@ serve(async (req) => {
   } catch (err) {
     return new Response(JSON.stringify({ error: "Merge failed", detail: err.message }), {
       status: 500,
-// Trigger redeploy
-// trigger action
-      // trigger action
     });
   }
 });
